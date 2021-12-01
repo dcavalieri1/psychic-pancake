@@ -12,7 +12,8 @@ library(tidyverse)
 ggplot(iris) +
   aes(x = Petal.Width) +
   geom_histogram(color = "firebrick4", 
-                 fill = "darkgreen")
+                 fill = "darkgreen",
+                 size = 4)
 
 
 
@@ -23,5 +24,13 @@ ggplot(iris) +
 ```{r}
 x <- 300
 
+```
+<br>
+
+```{r}
+ggplot(iris) +
+  aes(x = Sepal.Length) +
+  geom_histogram(color = "green4",
+                 fill = "red1")
 ```
 
